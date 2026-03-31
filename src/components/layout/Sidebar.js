@@ -44,14 +44,14 @@ export default function Sidebar({ collapsed, setCollapsed }) {
       {/* Sidebar */}
       <aside
         className={`
-    fixed md:relative top-0 left-0 h-screen bg-white shadow-lg z-50
+    fixed md:sticky top-0 left-0 bottom-0 h-screen bg-white shadow-lg z-50
     transform transition-all duration-300
     ${mobileOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
     ${collapsed ? "w-20" : "w-64"}
     flex flex-col
   `}
       >
-        <div className="flex items-center justify-between p-6 border-b border-gray-200">
+        <div className="flex items-center justify-between px-6 h-16 border-b border-gray-200">
           {!collapsed && (
             <span className="text-2xl font-bold text-indigo-600 tracking-wide">
               FlowMetrics

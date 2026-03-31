@@ -5,7 +5,7 @@ import { Bell } from "lucide-react";
 export default function Navbar() {
   return (
   <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6 shadow-sm sticky top-0 z-30">
-  <h1 className="text-xl font-semibold text-gray-800">Subscription Overview</h1>
+  <h1 className="text-xl pl-10 md:pl-0 font-semibold text-gray-800">Subscription Overview</h1>
 
   <div className="flex items-center gap-4">
     <button className="relative p-2 hover:bg-gray-100 rounded-lg transition">
