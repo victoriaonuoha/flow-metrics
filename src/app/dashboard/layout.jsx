@@ -12,7 +12,7 @@ export default function DashboardLayout({ children }) {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`${darkMode ? "dark" : ""} flex min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300`}>
+    <div className="flex min-h-screen bg-gray-100  transition-colors duration-300">
       
       {/* Sidebar */}
       <Sidebar collapsed={collapsed} setCollapsed={setCollapsed} />
@@ -31,13 +31,6 @@ export default function DashboardLayout({ children }) {
         </main>
       </div>
 
-      {/* Optional Dark Mode Toggle Button (floating) */}
-      <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="fixed bottom-4 right-4 z-50 p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 shadow-md hover:shadow-lg transition-shadow"
-      >
-        {darkMode ? "Light Mode" : "Dark Mode"}
-      </button>
     </div>
   );
 }

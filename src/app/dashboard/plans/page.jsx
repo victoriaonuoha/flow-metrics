@@ -25,7 +25,7 @@ export default function PlansPage() {
   ];
 
   return (
-    <div className="space-y-8 p-6">
+    <div className="space-y-8 p-0">
       <h1 className="text-2xl font-semibold text-gray-800">Our Plans</h1>
       <p className="text-gray-500 max-w-xl">
         Choose a plan that works best for your team. Upgrade anytime.

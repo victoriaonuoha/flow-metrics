@@ -10,16 +10,16 @@ export default function SettingsPage() {
   });
 
   return (
-    <div className="space-y-8 py-2 px-0">
+    <div className="space-y-4 py-2 px-0">
       <h1 className="text-2xl font-semibold text-gray-800">Settings</h1>
       <p className="text-gray-500 max-w-xl">
         Manage your account, preferences, and security settings.
       </p>
 
       {/* Profile Section */}
-      <div className="bg-white p-6 rounded-xl shadow-md space-y-4">
+      <div className="bg-white py-3 px-4 rounded-xl shadow-md space-y-2">
         <h2 className="text-lg font-semibold text-gray-800">Profile</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
           <div>
             <label className="block text-sm text-gray-600 mb-1">Name</label>
             <input
